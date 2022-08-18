@@ -1,39 +1,98 @@
-/*hat{
+.head{
     width: 100%;
-    top: 0;
-    left: 0;
     position: fixed;
+    top: 0;
 }
 
-hat emblem{
-    position: relative;
-    top: -45px;
-    left: 20px;
-}
-
-hat nav{
+.head .nav{
     font-size: 20px;
     color: white;
-    position: relative;
-    top: -100px;
-    left: 930px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
 }
 
-hat emblem left{
-    left: 35px;
-    position: relative;
-}*/
-
-part1{
-    background-color: blue;
+.head .emblem{
+    top: 30px;
+    left: 30px;
+    position: absolute;
 }
 
-/*part1 {
-    top: 100px;
-    left: 0;
+.head .emblem .left{
+    top: 0;
+    left: -2px;
+    position: absolute;
+}
+
+.part1{
+    margin-top: 60px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(./img/back1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.part2{
     width: 100%;
-    height: 4000px;
-    background-color: aquamarine;
-}*/
+    background-color: white;
+    background-size: cover;
+    background-position: center center;
+}
 
+.part3{
+    margin-top: 60px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url(./img/back2.png);
+    background-size: cover;
+    background-position: center center;
+}
 
+.container{
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.part1 .text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.part2 .text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+}
+
+.part3 .text{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.part2 h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
